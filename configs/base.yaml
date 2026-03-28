@@ -1,8 +1,8 @@
 data:
-  img_dir: "data/Flicker8k_Dataset"
-  captions_file: "data/Flickr8k.token.txt"
-  train_file: "data/Flickr_8k.trainImages.txt"
-  test_file: "data/Flickr_8k.testImages.txt"
+  img_dir: "/kaggle/input/datasets/adityajn105/flickr30k/Images"
+  captions_file: "/kaggle/input/datasets/adityajn105/flickr30k/captions.txt"
+  train_file: null
+  test_file: null
 
 model:
   embed_size: 256
